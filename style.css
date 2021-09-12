@@ -7,8 +7,10 @@ a{
 }
 body{
     letter-spacing: 1px;
-    background-color: #ffe960;
-    color: #3a86ff;
+    /* background-color: #ffe960; */
+    background-color: #fdb833;
+    /* color: #3a86ff; */
+    color: #296eb4;
     font-family: 'Oswald', sans-serif;
 }
 .navigation{
@@ -19,16 +21,18 @@ body{
 }
 
 .navigation ul li a{
-    color: inherit;
+    color: #103848;
     font: inherit;
     padding: 1em;
 }
 
 .navigation ul li :hover{
 
-    background-color: #3a86ff;
+    /* background-color: #3a86ff; */
+    background-color: #296eb4;
     color: #103848;
-    box-shadow: 2px 2px 5px #ffe960;
+    /* box-shadow: 2px 2px 5px #ffe960; */
+    background-color: #fdb833;
     border-radius: 10px;
     transition: 0.2s;
 }
@@ -68,7 +72,8 @@ body{
 }
 
 .social a:hover{
-    color: cornflowerblue;
+    /* color: cornflowerblue; */
+    color: #296eb4;
     transition: 0.5s;
 }
 
@@ -82,7 +87,7 @@ body{
 
 .navigation{
 
-    background-color: #081327;
+    background-color: #296eb4;
     width: 100%;
     position: fixed;
     top:0;
@@ -114,7 +119,8 @@ body{
     transform: translateY(6px);
 }
 .directormessage a :hover{
-    color: #3a86ff;
+    /* color: #3a86ff; */
+    color: #296eb4;
     transition: 0.2s;
 }
 
@@ -132,7 +138,7 @@ body{
 }
 .aim:hover{
     background-image: none;
-    background-color: #0b1c3b;
+    background-color: #296eb4;
     transition: 0.8s;
     
 }
