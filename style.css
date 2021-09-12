@@ -11,6 +11,9 @@ body{
     color: #3a86ff;
     font-family: 'Oswald', sans-serif;
 }
+.navigation{
+    z-index: 10;
+}
 .navigation ul li{
     list-style-type: none;
 }
@@ -93,8 +96,11 @@ body{
     width: 60%;
     margin : auto;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     padding: 20px;
+    border-top: 2px solid #081327;
+    border-bottom: 2px solid #081327;
+
 }
 
 .message{
