@@ -1,5 +1,117 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+a{
+    text-decoration: none;
+}
 body{
+    letter-spacing: 1px;
     background-color: #ffe960;
     color: #3a86ff;
     font-family: 'Oswald', sans-serif;
+}
+.navigation ul li{
+    list-style-type: none;
+}
+
+.navigation ul li a{
+    color: inherit;
+    font: inherit;
+    padding: 1em;
+}
+
+.navigation ul li :hover{
+
+    background-color: #3a86ff;
+    color: #103848;
+    box-shadow: 2px 2px 5px #ffe960;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.college_name{
+    display: inline-block;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    margin-left: 10px;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.college_logo_name{
+    display: flex;
+    align-items: center;
+    margin: 2px;
+}
+.top{
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    font-size: 1.3em;
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.social a{
+    text-decoration: none;
+    color: #103848;
+}
+
+.social a:hover{
+    color: cornflowerblue;
+    transition: 0.5s;
+}
+
+.navigation ul{
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin : 21px;
+    /* position: fixed; */
+}
+
+.navigation{
+
+    background-color: #081327;
+    width: 100%;
+    position: fixed;
+    top:0;
+
+}
+
+.directormessage{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 60%;
+    margin : auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.message{
+    margin-left: 5px;
+}
+
+.message h3{
+    transform: translateY(-9px);
+}
+.message_text{
+    transform: translateY(6px);
+}
+.directormessage a :hover{
+    color: #3a86ff;
+    transition: 0.2s;
+}
+
+.headings{
+    color: #0b1c3b;
 }
