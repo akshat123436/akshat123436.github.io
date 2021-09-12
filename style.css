@@ -121,3 +121,35 @@ body{
 .headings{
     color: #0b1c3b;
 }
+
+.aim{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://mitsgwalior.in/front/6.jpg);
+    padding : 20px;
+    color: #ffe960;
+    border-radius: 67px;
+}
+.aim:hover{
+    background-image: none;
+    background-color: #0b1c3b;
+    transition: 0.8s;
+    
+}
+.vision{
+    width:30%;
+}
+.mission{
+    width:30%;
+    
+}
+.branding{
+    width:30%;
+    
+}
+section div h3{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
