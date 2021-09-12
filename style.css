@@ -118,6 +118,10 @@ body{
 .message_text{
     transform: translateY(6px);
 }
+.directormessage a{
+    text-decoration: none;
+    color: #0b1c3b;
+}
 .directormessage a :hover{
     /* color: #3a86ff; */
     color: #296eb4;
