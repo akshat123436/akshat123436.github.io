@@ -24,18 +24,43 @@ body{
     color: #103848;
     font: inherit;
     padding: 1em;
+    position: relative;
 }
 
-.navigation ul li :hover{
+.navigation ul li a::after{
+    content: '';
+    width: 90%;
+    height: 2px;
+    position: absolute;
+    bottom: 12px;
+    left : 5%;
+    transform: scaleX(0);
+    background-color: #fdb833;
+    
+}
+
+.navigation ul li a:hover::after{
+
+    transform: scaleX(1);
+    transition: 0.3s ease-in-out;
+}
+
+.navigation ul li a:hover{
+
+    color: #fdb833;
+}
+
+/* .navigation ul li :hover{
 
     /* background-color: #3a86ff; */
-    background-color: #296eb4;
-    color: #103848;
+    /* background-color: #296eb4; */
+    /* color: #103848; */
     /* box-shadow: 2px 2px 5px #ffe960; */
-    background-color: #fdb833;
+    /* background-color: #fdb833;
+    text-decoration: underline;
     border-radius: 10px;
-    transition: 0.2s;
-}
+    transition: 0.2s; */
+/* } */ 
 
 .college_name{
     display: inline-block;
