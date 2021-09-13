@@ -1,0 +1,44 @@
+*{
+    background-color: #FDB833;
+    color:#296EB4;
+    font-size:20px;
+}
+
+.text{
+    display: inline-flexbox;
+    font-size:35px;
+    color:brown;
+    text-align: center;
+    font-family:'Rockwell',Serif;
+    border: 3px double black;
+}
+
+a:link{
+    color:#296EB4;
+    font-family:'Georgia', Serif;
+    text-decoration:none;
+    letter-spacing: 2px;
+    font-style:italic;
+}
+
+div.link{
+    line-height: 1.7;
+    padding: 10px;
+}
+
+button{
+    background-color: #296EB4;
+    color:white;
+    border-color: black;
+    border-width: 2.6px;
+}
+
+img{
+    width:55px;
+}
+
+.badge{
+    position: relative;
+    top: 25px;
+    left: 2px;
+}
