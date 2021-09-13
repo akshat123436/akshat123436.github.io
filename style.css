@@ -165,9 +165,12 @@ body{
     padding : 20px;
     color: #ffe960;
     border-radius: 67px;
+    /* background-color: #296eb4; */
 }
 .aim:hover{
     background-image: none;
+    /* opacity: 0; */
+    /* animation: fadeout 2s; */
     background-color: #296eb4;
     transition: 0.8s;
     
@@ -341,3 +344,36 @@ footer {
     border-bottom-style: solid;
     padding-bottom: 1px;
   }
+
+  .update{
+    color:#296EB4;
+    border-color: black;
+    border-width: 5px;
+    font-size:45px;
+    font-family:'Rockwell',Serif;
+    text-align: center;
+    display: inline-flexbox;
+    letter-spacing: 2px;
+    border-style: double;
+}
+
+button:hover{
+    color:crimson;
+    border-width: 5px;
+    border-color:white;
+    font-size:4rem;
+    border-style: dotted;
+    font-family:'Bodoni MT',serif
+}
+
+button{
+    transition:linear 0.1s;
+}
+
+section.link{
+    width:20%;
+    margin: auto;
+    margin-top: 30px;
+    line-height: 1.7;
+    padding: 10px;
+}
