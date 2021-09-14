@@ -359,7 +359,8 @@ footer {
   }
 
   .update{
-
+      margin-top: 30px;
+    background-color: #FDB833;
     color:#296EB4;
     border-color: black;
     border-width: 5px;
@@ -390,6 +391,7 @@ section.link{
     line-height: 1.7;
     padding: 10px;
 }
+
 
 @media (max-width:355px) {
     header{
